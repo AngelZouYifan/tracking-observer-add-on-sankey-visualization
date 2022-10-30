@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sankey Visualization</title>
+		<script src="Scripts/d3.v7.min.js"></script>
+		<script src="Scripts/d3-sankey.min.js"></script>
+		<script src="Scripts/mySankey.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1 class="column">
+				Sankey Diagram
+			</h1>
+		</header>
+		<div id="container"></div>
+		<style>
+			.node rect {
+			fill-opacity: .9;
+			shape-rendering: crispEdges;
+			}
+			.node text {
+			pointer-events: none;
+			text-shadow: 0 1px 0 #fff;
+			}
+			.link {
+			fill: none;
+			stroke: #000;
+			stroke-opacity: .2;
+			}
+			.link:hover {
+			stroke-opacity: .5;
+			}
+		</style>
+		<!-- style borrowed from online d3 sankey diagram tutorial-->
+	</body>
+</html>

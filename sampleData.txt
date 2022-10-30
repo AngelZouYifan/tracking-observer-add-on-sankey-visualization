@@ -1,0 +1,36 @@
+						google-analytics.com 
+google-analytics.com-referredby-ezojs.com
+google-analytics.com-referredby-lytics.io
+google-analytics.com-referredby-impactradius-event.com
+
+python-graph-gallery.com
+	tracked by
+	ezoic.net-referredby-ezojs.com
+	google.com-referredby-ezojs.com
+	google-analytics.com-referredby-ezojs.com
+d3-graph-gallery.com
+	tracked by
+	ezoic.net-referredby-ezojs.com
+	google.com-referredby-ezojs.com
+	google-analytics.com-referredby-ezojs.com
+code.grepper.com
+	tracked by
+	ezoic.net-referredby-ezojs.com
+	google.com-referredby-ezojs.com
+
+
+sankeydata = {"node":[{"node":0, "name":"python-graph-gallery.com"},
+	{"node":1, "name": "d3-graph-gallery.com"},
+	{"node":2, "name": "code.grepper.com"},
+	{"node":3, "name": "ezoic.net-referredby-ezojs.com"},
+	{"node":4, "name": "google.com-referredby-ezojs.com"},
+	{"node":5, "name": "google-analytics.com-referredby-ezojs.com"}
+	], "links": [{"source": 0,"target":3,"value":1},
+	{"source":1,"target":3,"value":1},
+	{"source":2,"target":3,"value":1},
+	{"source":0,"target":4,"value":1},
+	{"source":1,"target":4,"value":1},
+	{"source":2,"target":4,"value":1},
+	{"source":0,"target":5,"value":1},
+	{"source":1,"target":5,"value":1},
+	]}
